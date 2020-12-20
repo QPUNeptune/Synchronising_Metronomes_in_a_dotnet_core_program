@@ -103,32 +103,32 @@ namespace Synchronising_Metronomes_in_a_dotnet_core_program
 
         private void waveA_Scroll(object sender, EventArgs e)
         {
-            waveANum.Value = (decimal) (waveA.Value * 0.0001);
+            waveANum.Value = (decimal) (waveA.Value * 0.00001);
         }
 
         private void waveANum_ValueChanged(object sender, EventArgs e)
         {
-            waveA.Value = (int) (waveANum.Value * 10000);
+            waveA.Value = (int) (waveANum.Value * 100000);
         }
 
         private void waveB_Scroll(object sender, EventArgs e)
         {
-            waveBNum.Value = (decimal) (waveB.Value * 0.0001);
+            waveBNum.Value = (decimal) (waveB.Value * 0.00001);
         }
 
         private void waveBNum_ValueChanged(object sender, EventArgs e)
         {
-            waveB.Value = (int) (waveBNum.Value * 10000);
+            waveB.Value = (int) (waveBNum.Value * 100000);
         }
 
         private void waveC_Scroll(object sender, EventArgs e)
         {
-            waveCNum.Value = (decimal) (waveC.Value * 0.0001);
+            waveCNum.Value = (decimal) (waveC.Value * 0.00001);
         }
 
         private void waveCNum_ValueChanged(object sender, EventArgs e)
         {
-            waveC.Value = (int) (waveCNum.Value * 10000);
+            waveC.Value = (int) (waveCNum.Value * 100000);
         }
 
         private void kSlide_Scroll(object sender, EventArgs e)

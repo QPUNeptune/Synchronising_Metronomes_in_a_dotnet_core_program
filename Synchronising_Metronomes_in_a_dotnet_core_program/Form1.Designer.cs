@@ -98,40 +98,40 @@ namespace Synchronising_Metronomes_in_a_dotnet_core_program
             // 
             // waveA
             // 
-            this.waveA.LargeChange = 314;
+            this.waveA.LargeChange = 6283;
             this.waveA.Location = new System.Drawing.Point(194, 12);
-            this.waveA.Maximum = 31415;
+            this.waveA.Maximum = 628318;
             this.waveA.Name = "waveA";
             this.waveA.Size = new System.Drawing.Size(113, 45);
-            this.waveA.SmallChange = 31;
+            this.waveA.SmallChange = 628;
             this.waveA.TabIndex = 5;
-            this.waveA.TickFrequency = 3141;
+            this.waveA.TickFrequency = 62831;
             this.waveA.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.waveA.Scroll += new System.EventHandler(this.waveA_Scroll);
             // 
             // waveB
             // 
-            this.waveB.LargeChange = 314;
+            this.waveB.LargeChange = 6283;
             this.waveB.Location = new System.Drawing.Point(194, 63);
-            this.waveB.Maximum = 31415;
+            this.waveB.Maximum = 628318;
             this.waveB.Name = "waveB";
             this.waveB.Size = new System.Drawing.Size(113, 45);
-            this.waveB.SmallChange = 31;
+            this.waveB.SmallChange = 628;
             this.waveB.TabIndex = 6;
-            this.waveB.TickFrequency = 3141;
+            this.waveB.TickFrequency = 62831;
             this.waveB.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.waveB.Scroll += new System.EventHandler(this.waveB_Scroll);
             // 
             // waveC
             // 
-            this.waveC.LargeChange = 314;
+            this.waveC.LargeChange = 6283;
             this.waveC.Location = new System.Drawing.Point(194, 114);
-            this.waveC.Maximum = 31415;
+            this.waveC.Maximum = 628318;
             this.waveC.Name = "waveC";
             this.waveC.Size = new System.Drawing.Size(113, 45);
-            this.waveC.SmallChange = 31;
+            this.waveC.SmallChange = 628;
             this.waveC.TabIndex = 7;
-            this.waveC.TickFrequency = 3141;
+            this.waveC.TickFrequency = 62831;
             this.waveC.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.waveC.Scroll += new System.EventHandler(this.waveC_Scroll);
             // 
@@ -139,7 +139,7 @@ namespace Synchronising_Metronomes_in_a_dotnet_core_program
             // 
             this.waveANum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.waveANum.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.waveANum.DecimalPlaces = 4;
+            this.waveANum.DecimalPlaces = 5;
             this.waveANum.ForeColor = System.Drawing.Color.White;
             this.waveANum.Increment = new decimal(new int[] {
             1000,
@@ -148,10 +148,10 @@ namespace Synchronising_Metronomes_in_a_dotnet_core_program
             262144});
             this.waveANum.Location = new System.Drawing.Point(104, 26);
             this.waveANum.Maximum = new decimal(new int[] {
-            31415,
+            628318,
             0,
             0,
-            262144});
+            327680});
             this.waveANum.Name = "waveANum";
             this.waveANum.Size = new System.Drawing.Size(84, 19);
             this.waveANum.TabIndex = 8;
@@ -163,7 +163,7 @@ namespace Synchronising_Metronomes_in_a_dotnet_core_program
             // 
             this.waveBNum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.waveBNum.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.waveBNum.DecimalPlaces = 4;
+            this.waveBNum.DecimalPlaces = 5;
             this.waveBNum.ForeColor = System.Drawing.Color.White;
             this.waveBNum.Increment = new decimal(new int[] {
             1000,
@@ -172,10 +172,10 @@ namespace Synchronising_Metronomes_in_a_dotnet_core_program
             262144});
             this.waveBNum.Location = new System.Drawing.Point(104, 77);
             this.waveBNum.Maximum = new decimal(new int[] {
-            31415,
+            628318,
             0,
             0,
-            262144});
+            327680});
             this.waveBNum.Name = "waveBNum";
             this.waveBNum.Size = new System.Drawing.Size(84, 19);
             this.waveBNum.TabIndex = 9;
@@ -187,7 +187,7 @@ namespace Synchronising_Metronomes_in_a_dotnet_core_program
             // 
             this.waveCNum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.waveCNum.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.waveCNum.DecimalPlaces = 4;
+            this.waveCNum.DecimalPlaces = 5;
             this.waveCNum.ForeColor = System.Drawing.Color.White;
             this.waveCNum.Increment = new decimal(new int[] {
             1000,
@@ -196,10 +196,10 @@ namespace Synchronising_Metronomes_in_a_dotnet_core_program
             262144});
             this.waveCNum.Location = new System.Drawing.Point(104, 128);
             this.waveCNum.Maximum = new decimal(new int[] {
-            31415,
+            628318,
             0,
             0,
-            262144});
+            327680});
             this.waveCNum.Name = "waveCNum";
             this.waveCNum.Size = new System.Drawing.Size(84, 19);
             this.waveCNum.TabIndex = 10;
@@ -238,7 +238,7 @@ namespace Synchronising_Metronomes_in_a_dotnet_core_program
             // 
             this.kNum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.kNum.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.kNum.DecimalPlaces = 4;
+            this.kNum.DecimalPlaces = 5;
             this.kNum.ForeColor = System.Drawing.Color.White;
             this.kNum.Increment = new decimal(new int[] {
             10,
