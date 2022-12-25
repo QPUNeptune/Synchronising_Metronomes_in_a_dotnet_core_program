@@ -34,7 +34,6 @@ namespace Synchronising_Metronomes_in_a_dotnet_core_program
             formsPlot1.plt.YLabel(color: Color.Gray, yLabel:"sin(x)");
             formsPlot1.plt.Legend(fontColor: Color.White);
             formsPlot1.plt.AxisBounds(minX: 0, minY: -1.10, maxY: 1.10);
-            
         }
 
         private void Ying_yang_ploty_thang(double a, double b, double c, double k)
